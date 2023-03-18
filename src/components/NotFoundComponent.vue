@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center h-[650px]">
+  <div class="flex flex-col items-center justify-center h-[650px] ">
   <span class="w-[100px] h-[100px]">
     <svg
       fill="#000000"
