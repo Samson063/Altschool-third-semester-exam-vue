@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="bg-white h-[700px]">
     <router-view></router-view>
   </div>
 </template>
@@ -9,4 +9,6 @@ export default {
   name: "App",
 };
 </script>
+
+
 

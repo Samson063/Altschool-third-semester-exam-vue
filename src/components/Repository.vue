@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center bg-gray-400 h-[full]">
+  <div class="flex flex-col items-center justify-center bg-white h-[full]">
     <h1 class="text-[50px] font-bold">Repository Details</h1>
     <ul v-if="Object.keys(repository).length !== 0">
       <li class="m-[50px] text-[20px] font-semibold">Name: {{ repository.name }}</li>
@@ -8,7 +8,7 @@
       <li class="m-[50px] text-[20px] font-semibold">Forks: {{ repository.forks_count }}</li>
       <li class="m-[50px] text-[20px] font-semibold">Language: {{ repository.language }}</li>
       <li class="m-[50px] text-[20px] font-semibold">Visibility: {{repository.private ? 'Private' : 'Public'}}</li>
-      <button class="w-[200px] h-[50px] rounded-[10px] bg-gray-700 ml-[50px] text-white font-[semibold]">
+      <button class="w-[200px] h-[50px] rounded-[10px] bg-blue-500 ml-[50px] text-white font-[semibold]">
         <a target="_blank" :href="`${repository.html_url}`"> Link to repo</a>
       </button>
     </ul>

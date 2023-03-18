@@ -1,34 +1,60 @@
 <template>
-  <div class="flex items-center justify-center flex-col bg-gray-400 2xl:w-[2006px] xl:w-[1350px] lg:w-[1094px] md:w-[838px] w-[768px]">
-    <div class="">
+  <div
+    class="flex items-center justify-center flex-col bg-white 2xl:w-[2006px] xl:w-[1350px] lg:w-[1094px] md:w-[838px] w-[768px]"
+  >
+    <div class="flex flex-col items-center justify-center">
       <h1 class="text-[50px] font-black font-mono">Anthony Samson</h1>
+
+      <svg
+        width="70px"
+        height="70px"
+        viewBox="0 0 32 32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g fill="none" fill-rule="evenodd">
+          <path d="m0 0h32v32h-32z" />
+
+          <path
+            d="m7.12879292.51417785c1.11274139.23426134 2.47362429.82048782 4.11150568 1.85174647l.1402084.08827939.1615653-.03671938c2.9884399-.67919088 6.1124421-.67919088 8.961135-.00093066l.1674659.03987284.144082-.09420748c1.5716721-1.02763176 2.9182496-1.61310022 4.0524237-1.84775693.759192-.15707421 1.3120134-.14192842 1.7266168-.03827759.2666462.090124.4499633.27344118.5486711.56956426.6704248 1.74425402.8026962 3.4637821.4052819 5.18591101l-.0441449.19129423.1243184.15194469c1.1968139 1.46277248 1.8488866 3.31603184 1.8488866 5.2875725 0 6.3485866-2.8063027 9.1853925-7.7312723 10.4166349l-.419054.1047635.1365949.4097846c.2531851.7595554.3950384 1.6816016.3950384 2.5054211v5.2638242c0 .6102163-.3750007.9852169-.9852169.9852169-.6102163 0-.9852169-.3750006-.9852169-.9852169v-5.4023459c.1418506-1.1099017-.2422784-2.0702241-1.0868091-2.9147549-.3044473-.3044473-.3790379-.6525363-.227066-.8804941l.0552369-.1248658c.0757101-.3028408.3814371-.532136.8466076-.6871928 5.3120827-.5399498 8.0307236-2.8327794 8.0307236-8.6907748 0-1.6564285-.6131873-3.26604496-1.7632966-4.55991791-.2672232-.26819938-.3184945-.62709819-.1965338-.99298027.421569-1.12340343.4584237-2.30275287.1471054-3.54802595l-.0925045-.3700178-.3739989.07479979c-.9478211.18956418-2.1473179.75403325-3.7508016 1.86413736-.1857796.1766551-.4230883.19822862-.7539984.08792526-2.8475111-.81394761-5.9339607-.85464499-8.7911309-.12649584l-.4491585.12135959c-.3628223.12054277-.6384702.09757211-.9149267-.08673225-1.42751816-1.0714084-2.69253421-1.64970145-3.74499762-1.86019412l-.373999-.0747998-.09250445.37001782c-.31131829 1.24527311-.27446362 2.42462255.15204701 3.5619842.10109463.41385961.07644663.71100916-.06562638.86216475l-.13584907.11685726c-1.15010933 1.29387299-1.76329656 2.90348951-1.76329656 4.55991791 0 5.8579954 2.71864082 8.150825 8.11605497 8.7091782.3774067.0021233.658493.2576563.7612762.6687894.1010375.4041497.0114892.8220417-.1718291 1.0053599-.7436348.7436349-1.0868091 1.6587662-1.0868091 2.7762332v5.4023459c0 .6102163-.3750006.9852169-.9852169.9852169-.6102162 0-.9852169-.3750006-.9852169-.9852169v-2.8270529l-.46575959.0776266c-2.54724.42454-4.24481989-.2444101-5.77209467-1.8206127l-.17550688-.1858852c-.2604301-.2828668-.33970082-.3776481-.88018386-1.0382385l-.36159501-.4498172c-.20278887-.2491665-.28041984-.3335268-.4270144-.4801213-.31004981-.3100499-.60764766-.5050278-.94769786-.5900403-.50153879-.1007695-.86640495-.6978232-.69527541-1.1256471.10960673-.5162087.63701397-.8684616 1.05468442-.7739997l.08762892.0271823c1.09149998.3291047 1.69332587.8449555 2.89233084 2.2437946 1.52216405 2.0951415 2.69032089 2.7199695 5.36532835 2.2104443l.32515515-.0619343v-.4695228c0-.8356368.1444822-1.7386502.3869558-2.3448342l.1761248-.4403121-.4637039-.0993651c-4.85568756-1.0405045-7.71806969-4.1305761-7.71806969-10.2750493 0-1.9715406.65207273-3.82479999 1.84888659-5.28757249l.13251746-.16196578-.0574908-.20121779c-.52680966-1.84383388-.39831649-3.54636846.39413925-5.26335592.11499725-.33725524.29831442-.52057241.59443749-.61928009.38670854-.09546266.89997964-.11002355 1.64383232.04657702z"
+            fill="#000000"
+            fill-rule="nonzero"
+            transform="translate(1)"
+          />
+        </g>
+      </svg>
     </div>
-    <div class=" 2xl:w-[1606px] xl:w-[1350px] lg:w-[1094px] md:w-[838px] w-[768px] flex flex-row  bg-gray-700 rounded-[10px] flex-wrap items-center justify-center shadow-xl shadow-black opacity-[50px]">
+    <div
+      class="2xl:w-[1606px] xl:w-[1250px] lg:w-[950px] md:w-[700px] w-[668px] flex flex-row bg-blue-500 rounded-[10px] flex-wrap items-center justify-center shadow-xl shadow-black opacity-[50px] mt-[20px]"
+    >
       <div
-        class="flex flex-col items-center bg-gray-400 justify-center p-[15px] shadow-lg shadow-white opacity-[20px]  w-[500px] m-[50px]  rounded-[10px] border-black"
+        class="flex flex-col items-center bg-white justify-center p-[15px] shadow-lg shadow-gray-800 opacity-[20px] w-[500px] m-[50px] rounded-[10px] border-black"
         v-for="repo in paginatedRepos"
         :key="repo.id"
       >
-        <div class="flex items-center w-[450px]  justify-between ">
+        <div class="flex items-center w-[450px] justify-between">
           <img />
           <router-link
-          class="mr-[250px] font-mono"
+            class="mr-[250px] font-mono"
             :to="{ name: 'Repository', params: { name: repo.name } }"
             >{{ repo.name }}</router-link
           >
-         <div class="border-black border-[2px] w-[100px] flex items-center justify-center rounded-[15px] shadow-lg shadow-black opacity-[20px]">
-          <span class="font-mono" v-if="repo.private ? 'Private' : 'Public'">
-            {{ repo.private ? 'Private' : 'Public' }}
-          </span>
+          <div
+            class="border-black border-[2px] w-[100px] flex items-center justify-center rounded-[15px] shadow-lg shadow-black opacity-[20px]"
+          >
+            <span class="font-mono" v-if="repo.private ? 'Private' : 'Public'">
+              {{ repo.private ? 'Private' : 'Public' }}
+            </span>
           </div>
         </div>
 
-        <div class="flex w-[400px] justify-between mt-[50px] ml-[50px] mr-[50px] font-mono">
+        <div
+          class="flex w-[400px] justify-between mt-[50px] ml-[50px] mr-[50px] font-mono"
+        >
           <span v-if="repo.language">
             {{ repo.language }}
           </span>
-           
-           <div class="flex">
+
+          <div class="flex">
             <svg
               fill="#000000"
               width="20px"
@@ -42,26 +68,29 @@
                 d="M30.383 12.699c-0.1-0.303-0.381-0.519-0.713-0.519-0 0-0 0-0 0h-9.898l-3.059-9.412c-0.124-0.276-0.396-0.464-0.713-0.464s-0.589 0.189-0.711 0.459l-0.002 0.005-3.059 9.412h-9.897c-0.414 0-0.749 0.336-0.749 0.75 0 0.248 0.121 0.469 0.307 0.605l0.002 0.001 8.007 5.818-3.059 9.412c-0.023 0.070-0.037 0.15-0.037 0.233 0 0.414 0.336 0.75 0.75 0.75 0.165 0 0.318-0.054 0.442-0.144l-0.002 0.001 8.008-5.818 8.006 5.818c0.122 0.090 0.275 0.144 0.441 0.144 0.414 0 0.75-0.336 0.75-0.75 0-0.083-0.014-0.164-0.039-0.239l0.002 0.005-3.059-9.412 8.010-5.818c0.188-0.138 0.308-0.357 0.308-0.605 0-0.083-0.014-0.163-0.038-0.238l0.002 0.005zM20.779 18.461c-0.188 0.138-0.309 0.358-0.309 0.607 0 0.083 0.014 0.163 0.039 0.238l-0.002-0.005 2.514 7.736-6.581-4.783c-0.122-0.089-0.275-0.143-0.44-0.143s-0.318 0.053-0.443 0.144l0.002-0.002-6.581 4.783 2.514-7.736c0.024-0.070 0.037-0.15 0.037-0.233 0-0.249-0.121-0.469-0.307-0.605l-0.002-0.001-6.58-4.78h8.134c0 0 0.001 0 0.001 0 0.331 0 0.612-0.215 0.71-0.513l0.002-0.005 2.514-7.735 2.514 7.735c0.1 0.303 0.381 0.519 0.713 0.519 0 0 0 0 0 0h8.135z"
               ></path>
             </svg>
-          <span v-if="repo.stargazers_count">
-            {{ repo.stargazers_count }}
-          </span>
+            <span v-if="repo.stargazers_count">
+              {{ repo.stargazers_count }}
+            </span>
           </div>
-         
         </div>
       </div>
     </div>
 
-      <div class="">
-    <ul v-if="pageCount > 1" class="flex ">
-      <li class="bg-gray-200 w-[50px] h-[50px] rounded-[30px] m-[30px] flex align-center justify-center  shadow-lg shadow-black opacity-[20px]" v-for="n in pageCount" :key="n">
-        <router-link
-          class="mt-[15px]"
-          :to="{ name: 'Repositories', query: { page: n } }"
-          @click="updateCurrentPage(n)"
-          >{{ n }}</router-link
+    <div class="">
+      <ul v-if="pageCount > 1" class="flex">
+        <li
+          class="bg-gray-200 w-[50px] h-[50px] rounded-[30px] m-[30px] flex align-center justify-center shadow-lg shadow-black opacity-[20px]"
+          v-for="n in pageCount"
+          :key="n"
         >
-      </li>
-    </ul>
+          <router-link
+            class="mt-[15px]"
+            :to="{ name: 'Repositories', query: { page: n } }"
+            @click="updateCurrentPage(n)"
+            >{{ n }}</router-link
+          >
+        </li>
+      </ul>
     </div>
   </div>
 </template>
